@@ -25,11 +25,11 @@ Before continuing, these services need to be up and running in order to validate
 Alternatively, you can use kubectl directly:
 
 ```
-$ kubectl apply -f path/to/kubernetes/manifests/kibana.yaml
+$ kubectl apply -f path/to/kubernetes/manifests/kube-state-metrics.yaml
 $ kubectl get all 
 $ kubectl logs <pod-name>
 # Check the kibana dashboard to see if the logs are being sent to elasticsearch.
-$ kubectl delete -f path/to/kubernetes/manifests/kibana.yaml
+$ kubectl delete -f path/to/kubernetes/manifests/kube-state-metrics.yaml
 ```
 
 Alternatively, you can use the Jenkinsfile to run the pipeline:
