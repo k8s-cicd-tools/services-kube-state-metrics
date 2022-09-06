@@ -1,0 +1,4 @@
+name: services-kube-state-metrics
+runtime: nodejs
+description: is a listening service that generates metrics about the state of Kubernetes
+  objects through leveraging the Kubernetes API
